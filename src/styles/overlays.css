@@ -1,0 +1,42 @@
+.game-over-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(73, 25, 25, 0.42);
+  display: grid;
+  place-items: center;
+  z-index: 30;
+}
+
+.game-over-card {
+  width: 360px;
+  padding: 34px 30px;
+  border-radius: 32px;
+  background: #fff7f7;
+  text-align: center;
+  box-shadow: 0 30px 42px rgba(0, 0, 0, 0.18);
+}
+
+.game-over-card h2 {
+  margin: 0 0 12px;
+  font-size: 48px;
+  font-family: "Baloo 2", cursive;
+  color: #7a2e2e;
+}
+
+.game-over-card p {
+  margin: 8px 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.game-over-card button {
+  margin-top: 18px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffb15e 0%, #f06a53 100%);
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+}
